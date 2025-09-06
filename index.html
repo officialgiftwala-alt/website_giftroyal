@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Royal - Make Instant Earning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button onclick="reload()" aria-label="Go back">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+                </svg>
+            </button>
+            <div class="header-actions">
+                <button id="moreBtn" aria-label="More options">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+                    </svg>
+                </button>
+                <button id="shareBtn" aria-label="Share app" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="app-info">
+            <div class="app-icon">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4ZzKDrWORcADycAPXxebG2OxidkvaSlDfkwActd_HZQ2Oqscs0hYn4u0Sa2Zz0LP0NxdUGpWgRBwP_yUGR_og_FOG91475jgrub0zJZuMkOO0DSjNJ_0XrE8A8JEC69QBOLXv8Q56BRRXgFxiAsquqqBQjfdhmz8zsX1xwBvhjJ-UNyZFYm4KqLKxBvU/s512/icon.png" alt="Gift Royal app icon">
+            </div>
+            <div class="app-details">
+                <h1 class="app-title">Gift Royal - Make Instant Earning</h1>
+                <div class="publisher">
+                    <span>Publisher Gift Royal</span>
+                    <span class="verified-badge">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C14.8,12.61 13.81,13.5 12.7,13.5H11.3C10.19,13.5 9.2,12.61 9.2,11.5V10C9.2,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.4,8.7 10.4,10V11.5C10.4,11.77 10.63,12 10.9,12H13.1C13.37,12 13.6,11.77 13.6,11.5V10C13.6,8.7 12.8,8.2 12,8.2Z"/>
+                        </svg>
+                    </span>
+                </div>
+                <div class="app-category">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z"/>
+                    </svg>
+                    <span>Lifestyle & Entertainment</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-value">
+                        4.8
+                        <svg viewBox="0 0 24 24" fill="#ffa000">
+                            <path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-label">Rating</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M5,20H19V18H5M19,9H15L13.5,7.5C13.1,7.1 12.6,6.9 12.1,6.9H6.9C6.4,6.9 5.9,7.1 5.5,7.5L4,9H4C2.9,9 2,9.9 2,11V17C2,18.1 2.9,19 4,19H20C21.1,19 22,18.1 22,17V11C22,9.9 21.1,9 20,9H19M7.5,13.5L9,12L10.5,13.5L12,12L13.5,13.5L15,12L16.5,13.5L15,15L13.5,13.5L12,15L10.5,13.5L9,15L7.5,13.5Z"/>
+                        </svg>
+                        500 KB
+                    </div>
+                    <div class="stat-label">Size</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">
+                        <svg viewBox="0 0 24 24" fill="#34a853">
+                            <path d="M16,6L18.29,8.29L13.41,13.17L9.41,9.17L2,16.59L3.41,18L9.41,12L13.41,16L20.29,9.12L22,10.83V6H16Z"/>
+                        </svg>
+                        10K+
+                    </div>
+                    <div class="stat-label">Downloads</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="com.gift_royal.apk" download="com.gift_royal.apk" class="download-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M5,20H19V18H5M19,9H15L13.5,7.5C13.1,7.1 12.6,6.9 12.1,6.9H6.9C6.4,6.9 5.9,7.1 5.5,7.5L4,9H4C2.9,9 2,9.9 2,11V17C2,18.1 2.9,19 4,19H20C21.1,19 22,18.1 22,17V11C22,9.9 21.1,9 20,9H19M12,12L16,16H13V17H11V16H8L12,12Z"/>
+                </svg>
+                Install
+            </a>
+            <button class="wishlist-btn" aria-label="Add to wishlist">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.1,18.55L12,18.65L11.89,18.55C7.14,14.24 4,11.39 4,8.5C4,6.5 5.5,5 7.5,5C9.04,5 10.54,6 11.07,7.36H12.93C13.46,6 14.96,5 16.5,5C18.5,5 20,6.5 20,8.5C20,11.39 16.86,14.24 12.1,18.55M16.5,3C14.76,3 13.09,3.81 12,5.08C10.91,3.81 9.24,3 7.5,3C4.42,3 2,5.41 2,8.5C2,12.27 5.4,15.36 10.55,20.03L12,21.35L13.45,20.03C18.6,15.36 22,12.27 22,8.5C22,5.41 19.58,3 16.5,3Z"/>
+                </svg>
+            </button>
+            <button class="share-alt-btn" aria-label="Alternative share" id="shareBtnb">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21,12L14,5V9C7,10 4,15 3,20C5.5,16.5 9,14.9 14,14.9V19L21,12Z"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">About this app</h2>
+            <p class="about-text">
+                Ready to turn your spare time into rewards? Introducing Gift Royal, the app where your effort instantly pays off. Complete simple tasks, watch engaging ads, and earn redeem codes for your favorite online stores, gaming platforms, and more.
+            </p>
+            <p class="about-text" style="margin-top: 12px;">
+                No more waiting for payouts or dealing with complicated redemption processes. With Gift Royal, the moment you finish a task, your reward is ready to use. Whether you're looking for a gift card for your next shopping spree or a code to unlock new content in your favorite game, we've got you covered.
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">Instant Rewards</div>
+                        <div class="feature-desc">Get your rewards immediately after completing tasks</div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M16,17V14H9V10H16V7L21,12L16,17M14,2A2,2 0 0,1 16,4V6H14V4H5V20H14V18H16V20A2,2 0 0,1 14,22H5A2,2 0 0,1 3,20V4A2,2 0 0,1 5,2H14Z"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">Multiple Platforms</div>
+                        <div class="feature-desc">Redeem codes for gaming, shopping, and entertainment</div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,2A2,2 0 0,1 14,4C14,5.5 13.2,6.77 12,7.46V8.5L16,10.5V9C16,7.89 16.89,7 18,7H20C21.11,7 22,7.89 22,9V15C22,16.11 21.11,17 20,17H18C16.89,17 16,16.11 16,15V13.5L12,15.5V16.54C13.2,17.23 14,18.5 14,20A2,2 0 0,1 12,22A2,2 0 0,1 10,20C10,18.5 10.8,17.23 12,16.54V15.5L8,13.5V15C8,16.11 7.11,17 6,17H4C2.89,17 2,16.11 2,15V9C2,7.89 2.89,7 4,7H6C7.11,7 8,7.89 8,9V10.5L12,8.5V7.46C10.8,6.77 10,5.5 10,4A2,2 0 0,1 12,2Z"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">Simple Tasks</div>
+                        <div class="feature-desc">Easy-to-complete activities that fit your schedule</div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.79,15.9 4.21,15.71C3.89,16.45 3.5,17.25 3.5,18.25V20H0M20.5,20V18.25C20.5,17.25 20.11,16.45 19.79,15.71C22.21,15.9 24,17.11 24,18.5V20H20.5Z"/>
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <div class="feature-title">Trusted Community</div>
+                        <div class="feature-desc">Join thousands of satisfied users worldwide</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="security-badge">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
+                </svg>
+                <span class="security-text">SECURE & VERIFIED</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Screenshots</h2>
+            <div class="screenshots">
+                <div class="screenshot-item">
+                    <img src="img1.jpeg" alt="App screenshot 1">
+                    <div class="screenshot-overlay">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.5,14H20.5L15.5,19V14M4,3H18A2,2 0 0,1 20,5V12.34C18.37,10.85 16.2,10 13.96,10C13.44,10 12.92,10.07 12.42,10.21C12.36,10.16 12.29,10.12 12.22,10.09C10.26,9 7.74,9 5.78,10.09C4.67,10.71 4,11.88 4,13.16V21C4,21.5 4.4,22 5,22H10.96C11.19,21.4 11.54,20.86 11.97,20.4C11.43,20.78 10.74,21 10,21C8.9,21 8,20.11 8,19A3,3 0 0,1 11,16A3,3 0 0,1 14,19C14,19.35 13.93,19.69 13.82,20H22V19L15.5,12.5V9.5H20V7.5H15.5V5.5H20V3.5H15.5V1L9,7.5H15.5V9.5Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="img2.jpeg" alt="App screenshot 2">
+                    <div class="screenshot-overlay">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.5,14H20.5L15.5,19V14M4,3H18A2,2 0 0,1 20,5V12.34C18.37,10.85 16.2,10 13.96,10C13.44,10 12.92,10.07 12.42,10.21C12.36,10.16 12.29,10.12 12.22,10.09C10.26,9 7.74,9 5.78,10.09C4.67,10.71 4,11.88 4,13.16V21C4,21.5 4.4,22 5,22H10.96C11.19,21.4 11.54,20.86 11.97,20.4C11.43,20.78 10.74,21 10,21C8.9,21 8,20.11 8,19A3,3 0 0,1 11,16A3,3 0 0,1 14,19C14,19.35 13.93,19.69 13.82,20H22V19L15.5,12.5V9.5H20V7.5H15.5V5.5H20V3.5H15.5V1L9,7.5H15.5V9.5Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="img3.jpeg" alt="App screenshot 3">
+                    <div class="screenshot-overlay">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.5,14H20.5L15.5,19V14M4,3H18A2,2 0 0,1 20,5V12.34C18.37,10.85 16.2,10 13.96,10C13.44,10 12.92,10.07 12.42,10.21C12.36,10.16 12.29,10.12 12.22,10.09C10.26,9 7.74,9 5.78,10.09C4.67,10.71 4,11.88 4,13.16V21C4,21.5 4.4,22 5,22H10.96C11.19,21.4 11.54,20.86 11.97,20.4C11.43,20.78 10.74,21 10,21C8.9,21 8,20.11 8,19A3,3 0 0,1 11,16A3,3 0 0,1 14,19C14,19.35 13.93,19.69 13.82,20H22V19L15.5,12.5V9.5H20V7.5H15.5V5.5H20V3.5H15.5V1L9,7.5H15.5V9.5Z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="screenshot-item">
+                    <img src="img4.jpeg" alt="App screenshot 4">
+                    <div class="screenshot-overlay">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.5,14H20.5L15.5,19V14M4,3H18A2,2 0 0,1 20,5V12.34C18.37,10.85 16.2,10 13.96,10C13.44,10 12.92,10.07 12.42,10.21C12.36,10.16 12.29,10.12 12.22,10.09C10.26,9 7.74,9 5.78,10.09C4.67,10.71 4,11.88 4,13.16V21C4,21.5 4.4,22 5,22H10.96C11.19,21.4 11.54,20.86 11.97,20.4C11.43,20.78 10.74,21 10,21C8.9,21 8,20.11 8,19A3,3 0 0,1 11,16A3,3 0 0,1 14,19C14,19.35 13.93,19.69 13.82,20H22V19L15.5,12.5V9.5H20V7.5H15.5V5.5H20V3.5H15.5V1L9,7.5H15.5V9.5Z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Reviews & Ratings</h2>
+            <div class="review-summary">
+                <div class="rating-overview">
+                    <div class="overall-rating">4.8</div>
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="#ffa000"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#ffa000"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#ffa000"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#ffa000"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="#ffa000"><path d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.46,13.97L5.82,21L12,17.27Z"/></svg>
+                    </div>
+                    <div class="total-reviews">78,342 reviews</div>
+                </div>
+                <div class="rating-bars">
+                    <div class="rating-bar">
+                        <span>5</span>
+                        <div class="bar"><div class="fill" style="width: 78%"></div></div>
+                        <span>78%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>4</span>
+                        <div class="bar"><div class="fill" style="width: 15%"></div></div>
+                        <span>15%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>3</span>
+                        <div class="bar"><div class="fill" style="width: 4%"></div></div>
+                        <span>4%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>2</span>
+                        <div class="bar"><div class="fill" style="width: 2%"></div></div>
+                        <span>2%</span>
+                    </div>
+                    <div class="rating-bar">
+                        <span>1</span>
+                        <div class="bar"><div class="fill" style="width: 1%"></div></div>
+                        <span>1%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">App Info</h2>
+            <div class="metadata">
+                <div class="metadata-item">
+                    <span class="metadata-label">Version</span>
+                    <span class="metadata-value">2.1.0</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Updated</span>
+                    <span class="metadata-value">Sep 5, 2025</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Reviews</span>
+                    <span class="metadata-value">78K</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Category</span>
+                    <span class="metadata-value">Earning</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Content Rating</span>
+                    <span class="metadata-value">Everyone</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Developer</span>
+                    <span class="metadata-value">Gift Royal Studio</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Installs</span>
+                    <span class="metadata-value">10,000+</span>
+                </div>
+                <div class="metadata-item">
+                    <span class="metadata-label">Requires Android</span>
+                    <span class="metadata-value">5.0 and up</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="display: none;">
+            <h2 class="section-title">Similar Apps</h2>
+            <div class="similar-apps">
+                <div class="similar-app">
+                    <img src="https://via.placeholder.com/60x60/4CAF50/white?text=R" alt="Rewards Plus">
+                    <div class="similar-app-info">
+                        <div class="similar-app-name">Rewards Plus</div>
+                        <div class="similar-app-rating">4.6 ★</div>
+                    </div>
+                </div>
+                <div class="similar-app">
+                    <img src="https://via.placeholder.com/60x60/FF9800/white?text=E" alt="EarnMore">
+                    <div class="similar-app-info">
+                        <div class="similar-app-name">EarnMore</div>
+                        <div class="similar-app-rating">4.5 ★</div>
+                    </div>
+                </div>
+                <div class="similar-app">
+                    <img src="https://via.placeholder.com/60x60/9C27B0/white?text=G" alt="GiftBox Pro">
+                    <div class="similar-app-info">
+                        <div class="similar-app-name">GiftBox Pro</div>
+                        <div class="similar-app-rating">4.7 ★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-action">
+        <button class="fab" id="fabBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z"/>
+            </svg>
+        </button>
+    </div>
+
+    <div id="toast" class="toast"></div>
+    <div id="modal" class="modal"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
